@@ -1,0 +1,103 @@
+{
+    "percentTolerance": 15,
+    "nameLookup": {
+        "Akkermansia_muciniphila": "amuciniphila",
+        "Bacteroides_fragilis": "bfragilis",
+        "Bifidobacterium_adolescentis": "badolescentis",
+        "Clostridium_difficille": "cdifficille",
+        "Escherichia_coli": "ecoli",
+        "Faecalibacterium_prausnitzii": "fprausnitzii",
+        "Fusobacterium_nucleatum": "fnucleatum",
+        "Lactobacillus_fermentum": "lfermentum",
+        "Prevotella_corporis": "pcorporis",
+        "Roseburia_hominis": "rhominis",
+        "Veillonella_rogosae": "vrogosae",
+        "Candida_albican": "calbican",
+        "Saccharomyces_cerevisiae": "scerevisiae"
+    },
+    "printNames": {
+        "amuciniphila": "A. muciniphila",
+        "bfragilis": "B .fragilis",
+        "badolescentis": "B. adolescentis",
+        "cdifficille": "C. difficille",
+        "ecoli": "E. coli",
+        "fprausnitzii": "F. prausnitzii",
+        "fnucleatum": "F. nucleatum",
+        "lfermentum": "L. fermentum",
+        "pcorporis": "P. corpori",
+        "rhominis": "R. hominis",
+        "vrogosae": "V. rogosae",
+        "calbican": "C. albicans",
+        "scerevisiae": "S. cerevisiae"
+    },
+    "itemIDs": [
+        "amuciniphila",
+        "bfragilis",
+        "badolescentis",
+        "cdifficille",
+        "ecoli",
+        "fprausnitzii",
+        "fnucleatum",
+        "lfermentum",
+        "pcorporis",
+        "rhominis",
+        "vrogosae",
+        "calbican",
+        "scerevisiae"
+    ],
+    "sortings": {
+        "GC Content": [
+            "ascending",
+            [
+                "fnucleatum",
+                "cdifficile",
+                "calbicans",
+                "scerevisiae",
+                "vrogosae",
+                "bfragilis",
+                "pcorporis",
+                "rhominis",
+                "ecoli",
+                "amuciniphila",
+                "lfermentum",
+                "fprausnitzii",
+                "badolescentis"
+            ]
+        ],
+        "Lysis Difficulty": [
+            "descending",
+            [
+                "calbicans",
+                "scerevisiae",
+                "rhominis",
+                "cdifficile",
+                "fprausnitzii",
+                "lfermentum",
+                "badolescentis",
+                "fnucleatum",
+                "vrogosae",
+                "pcorporis",
+                "amuciniphila",
+                "bfragilis",
+                "ecoli"
+            ]
+        ]
+    },
+    "expectedValues": {
+        "Genomic": {
+            "amuciniphila": 1.5,
+            "bfragilis": 14,
+            "badolescentis": 6,
+            "cdifficille": 1.5,
+            "ecoli": 14.1,
+            "fprausnitzii": 14,
+            "fnucleatum": 6,
+            "lfermentum": 6,
+            "pcorporis": 6,
+            "rhominis": 14,
+            "vrogosae": 14,
+            "calbican": 1.5,
+            "scerevisiae": 1.4
+        },
+    }
+}
