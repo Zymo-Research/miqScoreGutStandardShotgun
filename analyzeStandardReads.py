@@ -249,7 +249,7 @@ if __name__ == "__main__":
     logger.debug("Starting analysis")
     bamFilePath = os.path.join(parameters.outputFolder.value, "%s.bam" %parameters.sampleName.value)
     if applicationMode == "PE":
-        #miqScoreShotgunPublicSupport.alignmentAnalysis.bwaHandler.bwaAlignPE(parameters.forwardReads.value, parameters.reverseReads.value, parameters.workingFolder.value, bamFilePath, parameters.referenceGenome.value) #TODO Return this line to functionality if disabled
+        miqScoreShotgunPublicSupport.alignmentAnalysis.bwaHandler.bwaAlignPE(parameters.forwardReads.value, parameters.reverseReads.value, parameters.workingFolder.value, bamFilePath, parameters.referenceGenome.value)
         readTable = miqScoreShotgunPublicSupport.alignmentAnalysis.alignmentAnalysisPE.bamFileProcessor(bamFilePath)
     elif applicationMode == "SE":
         miqScoreShotgunPublicSupport.alignmentAnalysis.bwaHandler.bwaAlignSE(parameters.reads.value, parameters.workingFolder.value, bamFilePath, parameters.referenceGenome.value)
