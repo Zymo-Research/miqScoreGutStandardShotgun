@@ -50,8 +50,8 @@
             "ascending",
             [
                 "fnucleatum",
-                "cdifficile",
-                "calbicans",
+                "cdifficille",
+                "calbican",
                 "scerevisiae",
                 "vrogosae",
                 "bfragilis",
@@ -64,13 +64,31 @@
                 "badolescentis"
             ]
         ],
+        "Abundance": [
+            "descending",
+            [
+                "fprausnitzii",
+                "ecoli",
+                "vrogosae",
+                "rhominis",
+                "bfragilis",
+                "pcorporis",
+                "badolescentis",
+                "fnucleatum",
+                "lfermentum",
+                "amuciniphila",
+                "cdifficille",
+                "calbican",
+                "scerevisiae"
+            ]
+        ],
         "Lysis Difficulty": [
             "descending",
             [
-                "calbicans",
+                "calbican",
                 "scerevisiae",
                 "rhominis",
-                "cdifficile",
+                "cdifficille",
                 "fprausnitzii",
                 "lfermentum",
                 "badolescentis",
@@ -98,6 +116,6 @@
             "vrogosae": 14,
             "calbican": 1.5,
             "scerevisiae": 1.4
-        },
+        }
     }
 }
